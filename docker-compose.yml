@@ -8,8 +8,9 @@ services:
       POSTGRES_DB: ${POSTGRES_DB} # 新增环境变量
       POSTGRES_USER: ${POSTGRES_USER} # 新增环境变量
       POSTGRES_PASSWORD: ${POSTGRES_PASSWORD} # 新增环境变量
-    ports:
-      - "5432:5432"
+    #railway不允许暴露端口
+    #ports:
+    #  - "5432:5432"
     volumes:
       - postgres_data:/var/lib/postgresql/data
     networks:
@@ -20,8 +21,9 @@ services:
     image: redis:7-alpine
     container_name: medusa_redis
     restart: unless-stopped
-    ports:
-      - "6379:6379"
+    #railway不允许暴露端口
+    #ports:
+    #  - "6379:6379"
     # 新增 volumes 配置，将 Redis 数据目录挂载到命名卷
     volumes:
       - redis_data:/data
