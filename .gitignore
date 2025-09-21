@@ -1,0 +1,32 @@
+# 环境变量文件（核心保护）
+.env
+.env.local
+.env.*.local
+
+# 依赖与构建目录
+/node_modules
+/dist
+/build
+.cache
+
+# 系统与 IDE 配置
+.DS_Store
+.idea
+.vscode/
+*.sublime-*
+
+# Medusa 相关临时文件
+/uploads
+.medusa
+medusa-db.sql
+yarn-error.log
+coverage
+./tsconfig.tsbuildinfo
+
+# Yarn 缓存
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
