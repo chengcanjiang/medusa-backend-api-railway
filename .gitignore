@@ -1,21 +1,21 @@
-# »·¾³±äÁ¿ÎÄ¼ş£¨ºËĞÄ±£»¤£©
+# ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ä±ï¿½ï¿½ï¿½ï¿½ï¿½
 .env
 .env.local
 .env.*.local
 
-# ÒÀÀµÓë¹¹½¨Ä¿Â¼
+# ï¿½ï¿½ï¿½ï¿½ï¿½ë¹¹ï¿½ï¿½Ä¿Â¼
 /node_modules
 /dist
 /build
 .cache
 
-# ÏµÍ³Óë IDE ÅäÖÃ
+# ÏµÍ³ï¿½ï¿½ IDE ï¿½ï¿½ï¿½ï¿½
 .DS_Store
 .idea
 .vscode/
 *.sublime-*
 
-# Medusa Ïà¹ØÁÙÊ±ÎÄ¼ş
+# Medusa ï¿½ï¿½ï¿½ï¿½ï¿½Ê±ï¿½Ä¼ï¿½
 /uploads
 .medusa
 medusa-db.sql
@@ -23,10 +23,20 @@ yarn-error.log
 coverage
 ./tsconfig.tsbuildinfo
 
-# Yarn »º´æ
+# Yarn ï¿½ï¿½ï¿½ï¿½
 .yarn/*
 !.yarn/patches
 !.yarn/plugins
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# è®¾ç½®æ‰€æœ‰æ–‡æœ¬æ–‡ä»¶ä½¿ç”¨ LF æ¢è¡Œç¬¦
+* text=auto eol=lf
+
+# æŒ‡å®šç‰¹å®šæ–‡ä»¶ç±»å‹
+*.txt text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.css text eol=lf
+*.md text eol=lf
